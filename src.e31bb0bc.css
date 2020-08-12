@@ -1524,7 +1524,7 @@ button {
 .form-field > input::placeholder {
   color: currentColor;
 }
-.form-field > input:hover {
+.form-field > input:hover, .form-field > input:focus-within {
   color: #ffffff;
 }
 
